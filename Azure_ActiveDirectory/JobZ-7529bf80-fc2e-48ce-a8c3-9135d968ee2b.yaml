@@ -1,0 +1,18 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 7529bf80-fc2e-48ce-a8c3-9135d968ee2b
+  loglevel: INFO
+  name: JobZ
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - exec: uname
+    keepgoing: false
+    strategy: node-first
+  uuid: 7529bf80-fc2e-48ce-a8c3-9135d968ee2b
+
